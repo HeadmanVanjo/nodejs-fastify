@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-fastify-mongodb",
+  "version": "1.0.0",
+  "description": "A REST API built with fastify nodejs server framework",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "undefined"
+  },
+  "keywords": [
+    "REST",
+    "API",
+    "Fastify",
+    "Node.js",
+    "Mongodb"
+  ],
+  "author": "Kwis Lawrence Francis",
+  "license": "ISC"
+}
