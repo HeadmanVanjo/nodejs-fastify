@@ -4,11 +4,13 @@
   "description": "A REST API built with fastify nodejs server framework",
   "main": "app.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
-    "url": "undefined"
+    "url": "https://github.com/Xavier-Platinum/nodejs-fastify.git"
   },
   "keywords": [
     "REST",
@@ -18,5 +20,11 @@
     "Mongodb"
   ],
   "author": "Kwis Lawrence Francis",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
